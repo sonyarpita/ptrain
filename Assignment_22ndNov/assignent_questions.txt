@@ -1,0 +1,14 @@
+13. WAP find first 100 even numbers among 1000 numbers
+14. WAP find first 100 prime numbers among 1000 numbers
+15. WAP a basic calculator
+16. WAP for multiplication table for 10
+17. WAP to find calculate the gross salary of employee
+18. WAP to find the percentage of student for 6 sujects 
+19. WAP to swap 2 numbers without using 3rd variable 
+20. WAP to swap 2 numbers by using third variable 
+21. WAP to find factorial of a number
+22. WAP to find fibonacci series of a given number
+23. WAP print ASCII table
+24. WAP to find the largest and first smallest in list 
+25. WAP to create an even list and odd list from the iven list
+26. WAP to swap specific index elements in list
