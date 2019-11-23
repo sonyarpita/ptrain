@@ -1,0 +1,12 @@
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+add=a+b
+sub=a-b
+mul=a*b
+div=a/b
+mod=a%b
+print(a,"+",b,"=",add)
+print(a,"-",b,"=",sub)
+print(a,"*",b,"=",mul)
+print(a,"/",b,"=",div)
+print(a,"%",b,"=",mod)
