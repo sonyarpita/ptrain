@@ -9,6 +9,6 @@
 21. WAP to find factorial of a number -> Done
 22. WAP to find fibonacci series of a given number -> Done
 23. WAP print ASCII table -> Done
-24. WAP to find the largest and first smallest in list 
-25. WAP to create an even list and odd list from the given list
-26. WAP to swap specific index elements in list
+24. WAP to find the largest and first smallest in list -> Done
+25. WAP to create an even list and odd list from the given list -> Done
+26. WAP to swap specific index elements in list -> Done 
