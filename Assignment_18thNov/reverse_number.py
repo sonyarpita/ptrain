@@ -7,6 +7,10 @@ while a>0:
 	product=product*b
 print("Product=",product)'''
 
+'''
+Handle zero digits
+'''
+
 a=int(input("Enter number: "))
 temp_of_a=a
 temp=0
