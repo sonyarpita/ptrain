@@ -1,0 +1,2 @@
+syntax - open("filename","mode")
+modes - r,w,,w+,a
