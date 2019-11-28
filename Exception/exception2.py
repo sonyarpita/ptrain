@@ -1,8 +1,8 @@
 try:
-	v1=int(input("Enter first number: "))
+v1=int(input("Enter first number: "))
 	v2=int(input("Enter first number: "))
 	result=v1/v2
-	print("Result is: ", result)
+        print("Result is: ", result)
 
 except ValueError:
 	print("ValueError:Exception Handler")

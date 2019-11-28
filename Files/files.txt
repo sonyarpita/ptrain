@@ -1,2 +1,19 @@
 syntax - open("filename","mode")
 modes - r,w,,w+,a
+
+Functions[syntax - file_descriptor.function_name(args); except open()] -
+1. open(takes file name)
+2. close() -> No arguments
+3. read()
+   -> No arguments: Reads whole file
+   -> read(i): Reads i number of characters from the beginning
+4. write('contents to be written to file')
+5. tell() -> No arguments
+   Prints current position of file pointer. If a read(i) is done prior to this then, f.tell() returns i+1 position
+6. seek(x,y) -> where x and y are integers telling which row, column to move the file pointer to.
+
+Variable[syntax - file_descriptor.<variable_name>] -
+1. closed
+2. name
+3. mode 
+

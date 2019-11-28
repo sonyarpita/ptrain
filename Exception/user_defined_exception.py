@@ -10,6 +10,6 @@ def factorial(n):
 	return f
 try:
 	print("Factorial of is: ",factorial("Besant"))	
-#	print("Factorial ofis: ",factorial(12))
+#	print("Factorial of is: ",factorial(12))
 except RuntimeError:
 	print("Invalid input")
