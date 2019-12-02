@@ -9,5 +9,4 @@ def enter_list_elements(x):
 enter_list_elements(num_of_nums)
 print("Largest Number=",max(user_input_num_list))
 print("Smallest Number=",min(user_input_num_list))
-print(user_input_num_list.index(2,2)) 
-
+print(user_input_num_list.index(2)) # Checks if the entered list contains the element 2 
