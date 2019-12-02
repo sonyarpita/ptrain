@@ -8,7 +8,7 @@ class person:
 		print("Name= ", self.name)
 		print("Age= ", self.age)
 	def __del__(self):
-		print("object destroyed")
+		print("person object destroyed")
 class student(person):
 	studentid=""
 	fee=0.0
@@ -21,7 +21,7 @@ class student(person):
 	def getFee(self):
 		return self.fee
 	def __del__(self):
-		print("Obecjt destroyed")
+		print("student Obecjt destroyed")
 print("Person details are")
 print("***********************")
 person1=person("Ricky",50)
