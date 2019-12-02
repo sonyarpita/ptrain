@@ -1,0 +1,78 @@
+Class declaration
+-----------------
+class class_name:
+        def method_name(self):
+        data_members
+
+class is a collection of objects
+
+Object
+----- 
+object is collection of data members and methods which work on the data members
+
+entity -
+1. state
+2. identity
+3. behavior
+
+
+Example - 
+car - 1. state - color
+      2. identity - model,reg no
+      3. behavior- running, idle, stop 
+    
+Abstraction 
+----------- 
+Collecting relevant data out of a sea of irrevelant data 
+
+Person can play many roles - 
+- employee - name, id, address, qualification
+- patient - name, blood group, disease
+- Sportsman - name, type of sport 
+    
+Encapsulation
+-------------
+Wrapping up of data members and methods into a single entity
+Class
+
+Polymorphism
+------------
+single interface; multiple implementations
+-> compile time - operator overloading, function overloading (not supported by ython)
+-> run time 
+
+Inheritance 
+-----------
+Re-using existing class 
+Existing class - base class, parent class, super class 
+new Class - derived class, sub class, child class 
+
+Constructors and destructors
+----------------------------
+Constructor - __init__(self): only once can be called in an application 
+destructor - __del__(self): 
+
+
+Access specifiers [no keywords used in python]
+-----------------
+1. public - data members can be accessed directly 
+2. protected - same as private differentiated only in the case of inheritance; data can be access only by base and the child class 
+3. private - class methods can only access the data members. Only base class can access data members 
+
+
+Class syntax 
+===============
+class class_name:
+	var1=vlaue   --------|Class variables-----------------| 
+	var2=value2  --------|				      |calss definition
+	def method1(self): ----------|methods                 |
+	def method2(self): ----------|------------------------|
+obj=class_name()
+
+invoke method - 
+-------------
+obj.method1()
+
+
+
+
