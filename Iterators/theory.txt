@@ -1,0 +1,6 @@
+iter()
+-> Iterator in Python is simply an object that can be iterated upon. An object which will return data, one element at a time.
+-> Works on sets - lists, tuple, objects 
+-> Python iterator object must implement two special methods, __iter__() and __next__(), collectively called the iterator protocol 
+-> https://www.programiz.com/python-programming/iterator
+-> https://www.programiz.com/python-programming/methods/built-in/iter
