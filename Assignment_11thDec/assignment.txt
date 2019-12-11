@@ -1,0 +1,2 @@
+1. WAP to find number of consonants and vowels in an input string 
+2. WAP to convert first letter of each word in a sentence to capital letter
