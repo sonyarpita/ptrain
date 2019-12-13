@@ -1,3 +1,4 @@
+#use subprocess.run or subprocess.call
 import os
 import subprocess
 import shlex
@@ -8,7 +9,7 @@ def run_cmd(cmd):
         cmd_result=res.stdout.readlines()
         return cmd_result
 
-os.system("ip -o link | grep 07:43 | awk \'{ print $2\" : \"$17 }\' > /tmp/interf.txt")
+os.system("ip -o link | grep 08:00 | awk \'{ print $2\" : \"$17 }\' > /tmp/interf.txt")
 f_obj=open("/tmp/interf.txt")
 if_list=[]
 content=f_obj.readlines
@@ -18,11 +19,13 @@ for line in content():
     if_list.append(conv_list[0])
 print(if_list)
 for i in range(len(if_list)):
-    print(if_list[i])
+	print(if_list[i])
     #subprocess.call()
-    assign_ip="ifconfig %s 102.1.1.96/24"%(if_list[i])
-    e=run_cmd(assign_ip)
-    print(e)
+	assign_ip="sudo ifconfig %s 102.1.1.96/24"%(if_list[i])
+	print(assign_ip)
+    #e=run_cmd(assign_ip)
+	os.system(assign_ip)
+	#print(e)
     #run_cmd(ifconfig if_list[i])
 
 '''import os
