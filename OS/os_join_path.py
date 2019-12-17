@@ -1,11 +1,9 @@
-#Incomplete program
-#/home/naveen/dummy1/testfolder
-import os
+# files are not created until open(filename) is called. Make sure all the subdirs exist beforehand
+import os 
 path="/home"
-
-print (os.join(path,"/naveen/"))
-path="/home/naveen"
-os.mknod("")
-print (os.join(path,"/dummy1/testfolder/file3.txt"))
-path="/home/naveen/dummy1/testfolder"
-print(os.join(path,"/file2.txt"))
+print(os.path.join(path,"/sony", "file.txt"))
+path="/home/Sony/User"
+print(os.path.join(path, "Documents", "file2.txt"))
+path="/home"
+print(os.path.join(path, "sony", "file3.txt", "ptrain"))
+print(">>>>",path)

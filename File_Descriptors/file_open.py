@@ -1,0 +1,7 @@
+f=open("theory.txt")
+print(f.fileno())
+f1=open("sony.txt")
+print(f1.fileno())
+f.close()
+ff=open("sony1.txt")
+print(ff.fileno())

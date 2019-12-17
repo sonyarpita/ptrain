@@ -1,6 +1,6 @@
 import os
 
-my_dir="/home/naveen/BESANT/"
+my_dir="/home/sony/ptrain/"
 #intro to os.walk
 print("*****************Start Print*********************")
 for root_dir_path, sub_dirs, files in os.walk(my_dir):

@@ -1,9 +1,9 @@
 import os
 abspath=os.path.abspath("file1.txt")#To get absoluete path of where the file exsists
 print (abspath)
-file=os.path.basename("/home/naveen/dummy1/testfolder/file1.txt") #To get file name
+file=os.path.basename("/home/sony/dummy1/testfolder/file1.txt") #To get file name
 print(file)
-dirname=os.path.dirname("/home/naveen/dummy1/testfolder")
+dirname=os.path.dirname("/home/sony/dummy1/testfolder")
 #drirname=os.path.dirname("../../")
 print(dirname)
 isexists=os.path.exists(dirname)
