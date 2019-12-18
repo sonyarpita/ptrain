@@ -1,0 +1,4 @@
+total 8
+-rw-rw-r-- 1 sony sony 151 Dec 18 08:02 example1.py
+-rw-rw-r-- 1 sony sony 617 Dec 18 08:16 example2.py
+-rw-rw-r-- 1 sony sony   0 Dec 18 08:16 text.txt
