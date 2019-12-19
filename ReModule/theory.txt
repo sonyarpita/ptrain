@@ -1,0 +1,10 @@
+Frequently used methods - 
+1. Search - returns first index 
+2. findall - returns all occurence 
+3. match - 
+4. sub [substitute]
+5. compile
+
+Metacharacters [] . ^ $ * +? {} | ()
+Backslashes 
+Flags  
