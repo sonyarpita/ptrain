@@ -1,0 +1,9 @@
+import re 
+str = "The rain in Spain maui falls mainly in the plain!"
+#Check if the string contains "ai" followed by 0 or more 
+x=re.findall("aix*",str)
+print(x)
+if (x):
+    print("match")
+else:
+    print("No Match")
